@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TimeKeeper</title>
+</head>
+<body>
+    <nav>
+        <h2>TimeKeeper</h2>
+        <ul>
+            <li><a href="timer.html">Timer</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="settings.html">Settings</a></li>
+
+        </ul>
+        <!--settings btn-->
+    </nav>
+    <div class="container">
+        <h3 id="settings_text">Adjust the timers to suit your work style.</h3>
+
+        <form class="clockSettingsForm">
+            <div class="form-group">
+                <label>Period Length :</label>
+                <input type="text" name="period_length" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label>Pomodoro Minutes :</label>
+                <input type="text" name="pomodoro_minutes" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label>Short Break Duration :</label>
+                <input type="text" name="shortB_minutes" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label>Long Break Duration :</label>
+                <input type="text" name="longB_minutes" class="form-control">
+            </div>
+
+            <input type="submit" value="Submit" id="form_btn">
+        </form>
+        <div class="footer">Copyright &copy;2020 TimeKeeper</div>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
